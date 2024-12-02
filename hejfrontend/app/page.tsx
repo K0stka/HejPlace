@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 
 import { socket } from "@/lib/socket";
 import Disconnected from "@/components/Disconnected";
+import { ImageSyncFrame } from "../../types";
 
 const HejPage: NextPage = () => {
 	const [isConnected, setIsConnected] = useState(false);
